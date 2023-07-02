@@ -10,5 +10,4 @@ export default class Car {
     const clone = new NewObj();
     return clone;
   }
-
 }
