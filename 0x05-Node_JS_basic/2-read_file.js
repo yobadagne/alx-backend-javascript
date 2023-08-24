@@ -1,4 +1,4 @@
-tonsi fs = require('fs');
+const fs = require('fs');
 
 const countStudents = (Path) => {
   if (!fs.existsSync(Path)) {
